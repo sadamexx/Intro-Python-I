@@ -20,4 +20,9 @@ print(f.read())
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
+
 new = open('src/bar.txt', 'w+')
+new.write(f'It could all be so simple, but you would rather make it hard!\n')
+new.write(f'Loving you is like a battle, but we both come out scarred \n')
+new.close()
+print(new.read())
