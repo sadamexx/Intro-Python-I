@@ -24,18 +24,21 @@ z = slice(3, 6)
 print(a[z])
 
 # Output the two middle elements in the array: [1, 7]
-b = slice()
-print()
+b = slice(2,4)
+print(a[b])
 
 # Output every element except the first one: [4, 1, 7, 9, 6]
-print()
+c = slice(1, 6)
+print(a[c])
 
 # Output every element except the last one: [2, 4, 1, 7, 9]
-print()
+d = slice(1, 5)
+print(a[d])
 
 # For string s...
 
 s = "Hello, world!"
 
 # Output just the 8th-12th characters: "world"
-print()
+e = slice(8, 13)
+print(s[e])
