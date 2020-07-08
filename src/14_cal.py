@@ -47,7 +47,7 @@ elif num_args == 2:
   # render the cal for that month and year
   year = datetime.now().year
   month = int(sys.argv[1]) #not 0, because that will always be the name of the file
- 
+
 
 
 # user passed in two args

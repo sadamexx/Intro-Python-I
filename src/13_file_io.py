@@ -10,7 +10,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # Note: pay close attention to your current directory when trying to open "foo.txt"
 
 # YOUR CODE HERE
-f = open('src/foo.txt', 'r')
+f = open('./foo.txt', 'r')
 print(f.read())
 
 
@@ -21,8 +21,11 @@ print(f.read())
 
 # YOUR CODE HERE
 
-new = open('src/bar.txt', 'w+')
+new = open('./bar.txt', 'w+')
 new.write(f'It could all be so simple, but you would rather make it hard!\n')
 new.write(f'Loving you is like a battle, but we both come out scarred \n')
 new.close()
+new = open('./bar.txt', 'r')
 print(new.read())
+
+
